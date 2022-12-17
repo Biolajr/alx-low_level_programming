@@ -11,36 +11,36 @@ int main(void)
 	int p - 100;
 	int i;
 
-	i = 1;
-	while (i <= p)
+i = 1;
+while (i <= p)
 
-	if (i % 3 == 0 && i % 5 == 0)
-	printf("FizzBuzz ");
+if (i % 3 == 0 && i % 5 == 0)
+printf("FizzBuzz ");
 }
 
-	else if (i % 3 == 0)
+else if (i % 3 == 0)
 {
-	printf("Fizz ");
+printf("Fizz ");
 }
 
-	else if (i % 5 == 0)
+else if (i % 5 == 0)
 {
-	if (i < p)
-	printf("Buzz ");
+if (i < p)
+printf("Buzz ");
 
-	else
-	printf("Buzz");
+else
+printf("Buzz");
 }
 
-	else
+else
 {
-	printf("%i ", i);
+printf("%i ", i);
 }
 
 i++;
 
 }
-	printf("\n");
-	return (0);
+printf("\n");
+return (0);
 }
 

@@ -1,17 +1,21 @@
 #include "main.h"
 
 /**
- *  print_numbers - print num from 0 - 9
- *  Return: void
+ *  _isupper - checkes upper case
+ *  @c: print int
+ *  Return: give 1 or 0
  */
-void print_numbers(void)
+
+int _isupper(int c)
 {
-	char c;
-
-	for (c = '0'; c <= '9'; c++)
+	if (c >= 'A' && c <= 'Z')
 	{
-		_putchar(c);
-
+		return (1);
 	}
-	_putchar('\n');
+
+	else
+	{
+		return (0);
+	}
+
 }

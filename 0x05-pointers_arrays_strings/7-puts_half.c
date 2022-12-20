@@ -3,7 +3,7 @@
 /**
  *  puts_half - function that prints half of a string. followed by a new line.
  *
- *  @str: This is the input s7tring
+ *  @str: This is the input string
  */
 void puts_half(char *str)
 {

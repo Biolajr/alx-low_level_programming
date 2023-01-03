@@ -1,1 +1,1 @@
-0-memset.c
+7-print_chessboard.c
